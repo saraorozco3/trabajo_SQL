@@ -7,6 +7,12 @@
     <link rel="stylesheet" type="text/css" href="/styles/estilos.css">
     <script src="scripts/index.js"></script>
     <title>Hoteles Horizonte</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
 </head>
 
 <body>
@@ -16,7 +22,7 @@
     <header class="header">
         <div class="container d-flex justify-content-between align-items-center">
             <a href="#" class="navbar-brand">
-                <img src="/images/logo-hotel.png" alt="Logo" class="logo">
+                <img src="images/logo-hotel.png" alt="Logo" class="logo">
             </a>
             <div class="title-header">HOTELES HORIZONTE</div>
             <nav class="navbar navbar-expand-lg navbar-light">
@@ -27,10 +33,10 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="/index.html">Inicio</a>
+                            <a class="nav-link" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/views/galeria.html">Portafolio</a>
+                            <a class="nav-link" href="views/galeria.html">Portafolio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="/views/contacto.html">Contacto</a>
@@ -43,7 +49,7 @@
 
     <!-- FOTO PORTADA -->
 
-    <img src="/images/imagen9.jpg" alt="image-hotel" class="image-hotel-contact">
+    <img src="images/imagen9.jpg" alt="image-hotel" class="image-hotel-contact">
     <div class="container">
         <div class="text-center">
             <h2 class="subtitle">Contacto</h2>
@@ -105,6 +111,8 @@
         </article>
     </main>
 
+    <div id="map" style="height: 400px;"></div>
+
 <!-- FOOTER -->
 
     <footer class="footer bg-light text-center">
@@ -115,21 +123,21 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-unstyled">
-                        <li><a href="/index.html">Inicio</a></li>
-                        <li><a href="/views/galeria.html">Portafolio</a></li>
-                        <li><a href="/views/contacto.html">Contacto</a></li>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="views/galeria.html">Portafolio</a></li>
+                        <li><a href="views/contacto.html">Contacto</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <div style="display: flex; justify-content: center; gap: 1rem;">
                         <a href="https://facebook.com" target="_blank">
-                            <img src="/images/logo-facebook.png" alt="Facebook" height="30">
+                            <img src="images/logo-facebook.png" alt="Facebook" height="30">
                         </a>
                         <a href="https://twitter.com" target="_blank">
-                            <img src="/images/logo-twitter.png" alt="Twitter" height="30">
+                            <img src="images/logo-twitter.png" alt="Twitter" height="30">
                         </a>
                         <a href="https://instagram.com" target="_blank">
-                            <img src="/images/logo-instagram.png" alt="Instagram" height="30">
+                            <img src="images/logo-instagram.png" alt="Instagram" height="30">
                         </a>
                     </div>
                 </div>
