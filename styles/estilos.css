@@ -1,0 +1,221 @@
+/*HEADER*/
+
+/* .a {
+    color: black !important;
+} */
+
+.title-header {
+    color: goldenrod;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.header {
+    background-color: #efeeec;
+
+}
+
+/*PÁGINA ACTIVA BARRA NAV*/
+
+.nav-link.active {
+    background-color: goldenrod;
+    border-radius: 4px;
+}
+
+/*INICIO*/
+
+.subtitle {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/*tarjetas*/
+.p {
+    margin-top: auto;
+}
+
+/*GALERIA*/
+
+.carousel {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 500px;
+}
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-item active {
+    border: none;
+    width: 80%;
+    opacity: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.list-unstyled {
+    text-decoration: underline;
+    color: black !important;
+}
+
+#galeria img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+#galeria img:hover {
+    transform: scale(1.05);
+}
+
+/*PREGUNTAS FRECUENTES*/
+
+#accordionFAQ {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    color: #333;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.accordion-button {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #333;
+    background-color: #e9ecef;
+    border: none;
+    border-top: 1px solid #ddd;
+    padding: 1rem;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #007bff;
+    background-color: #d0e2f1;
+}
+
+.accordion-body {
+    background-color: #ffffff;
+    color: #555;
+    padding: 1.5rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.accordion-button:hover {
+    background-color: #d8d8d8;
+}
+
+.accordion-item {
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-item:last-of-type .accordion-button {
+    border-bottom: 0;
+}
+
+.accordion-item:first-of-type .accordion-button {
+    border-radius: 8px 8px 0 0;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-radius: 0 0 8px 8px;
+}
+
+/*CONTACTO*/
+.main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.image-hotel-contact {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/*FORMULARIO*/
+
+.formulario-personalizado input {
+    width: 100%;
+    max-width: 500px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.formulario-personalizado textarea {
+    width: 100%;
+    /* Ancho completo del contenedor */
+    max-width: 500px;
+    /* Ajusta el tamaño máximo según tus preferencias */
+    height: auto;
+    /* La altura se ajustará automáticamente para inputs */
+    padding: 10px;
+    /* Espaciado interno */
+    font-size: 16px;
+    /* Tamaño de la fuente */
+    border: 2px solid #ccc;
+    /* Estilo del borde */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    box-sizing: border-box;
+    /* Incluye el padding y borde en el tamaño total */
+}
+
+textarea {
+    height: 100px;
+    /* Ajusta la altura del textarea aquí */
+    resize: vertical;
+    /* Permite redimensionar verticalmente */
+}
+
+.button-form {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px
+}
+
+.form-item label {
+    padding-top: 10px;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: #efeeec;
+    margin-top: 30px;
+}
